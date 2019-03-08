@@ -1,4 +1,4 @@
-# PHP 5.6 APACHE ALPINE 3.6
+# PHP 5.6 APACHE
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
@@ -17,6 +17,8 @@ Ejecutar para iniciar el servicio
 $ docker run -d -e TIMEZONE=America/Montevideo -v mi_app_php:/var/www/localhost/htdocs sofislab/php:5.6-apache-alpine3.6
 
 ```
+Eliga el tag según el sistema operativo deseado (Centos7, alpine, etc)
+
 
 ### Variables
 
